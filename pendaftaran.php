@@ -20,17 +20,17 @@
 	<!-- Heading -->
 	<div class=" heading pt-3 pb-1 mb-3">
 		<div class="container">
-		<center><img src="img/logo.png" class="gambar logo-navbar" heigth=120px width=90px/></center>
+		<center><img src="img\logo1.png" class="gambar logo-navbar" heigth=120px width=90px/></center>
 			<h4 class=" text-white"><font size="4">
-			<center>Penerimaan Santriwan & SantriWati Baru Online</font></center>
+			<center>Penerimaan Santri & Santri Wati Baru Online</font></center>
 			</h4>
 			<h5 class=" text-white m-minus">
 				<font class="text-pondok" size="6">
-					<center>PONDOK PESANTREN DAARUT TAZKIA</center>
+					<center>PONDOK PESANTREN AL-GHOZALI</center>
 				</font>
 			</h5>
 			<h6 class="text-white m-minus text-alamat-on-navbar"><font size="3">
-				<center>Jl. Kp. Cibarengkok No.23, Pengasinan, Kec. Gn. Sindur, Kabupaten Bogor, Jawa Barat 16340</font></center>
+				<center>Jl. Permata No.19, RT.06/RW.05, Curug, Kec. Gn. Sindur, Kabupaten Bogor, Jawa Barat 16340</font></center>
 			</h6>
 
 		</div>
@@ -85,7 +85,7 @@
 						</div>
 						<div class="mb-3">
 							<label for="password" class="form-label">Password</label>
-							<input type="text" class="form-control" id="password" name="password" placeholder="masukan password anda" Required>
+							<input type="password" class="form-control" id="password" name="password" placeholder="masukan password anda" Required>
 						</div>
 						<div class="mb-3">
 							<label for="name" class="form-label">Nama Lengkap </label>
@@ -103,8 +103,8 @@
     							<input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan<br><br>
 
 							<p1 class="black m-minus" Required>Pilih Jenjang :<br>
-							<input type="radio" name="jenjang" value="SMP"> SMP TAZKIA INSANI<br>
-							<input type="radio" name="jenjang" value="SMA"> MA TAZKIA INSANI</p1><br>
+							<input type="radio" name="jenjang" value="SMP"> SMP ISLAM AL-GHOZALI<br>
+							<input type="radio" name="jenjang" value="SMA"> SMA ISLAM AL-GHOZALI</p1><br>
 							<br>
 							<p2 class="black m-minus" Required>Pilih Status Santri :</p2><br>
 							<input type="radio" name="status" value="Mukim"> Mukim<br>

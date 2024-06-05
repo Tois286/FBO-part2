@@ -86,7 +86,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 								<th scope="col">Nama Lengkap</th>
 								<th scope="col">info pembayaran</th>
 								<th scope="col">keterangan</th>
-								<th scope="col">Action</th>
+								<th scope="col" class="sticky-right">Action</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -105,7 +105,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 								<td><?= $data['nama_siswa']; ?></td>
 								<td><?= $data['judul_file_pdf']; ?></td>
 								<td><?= $data['keterangan']; ?></td>
-								<td>
+								<td class="sticky-right action-cell">
 									<form action="ujianAct.php" method="post">
 										<input type="checkbox" name="keterangan[]" value="Lulus"> Lulus<br>
 										<input type="checkbox" name="keterangan[]" value="Tidak"> tidak<br>
@@ -121,6 +121,18 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 			</div>
 	</div>
 	</font>
+	<style>
+		table td.action-cell {
+			background-color: white !important;
+			/* Atur latar belakang untuk kolom "Action" */
+		}
+
+		.sticky-right {
+			position: sticky;
+			right: 0;
+			z-index: 2;
+		}
+	</style>
 
 	<!-- footer -->
 	<footer>

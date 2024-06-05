@@ -103,6 +103,7 @@
 									</p>
 
 									<td><a href="#" class="btn btn btn-outline-primary btn-sm">Read More</a></td>
+									<td><a href="pengumumanHapus.php?id= <?= $text['id_pengumuman']; ?>" class="btn btn btn-outline-primary btn-sm">Delete</a></td>
 								</div>
 							</div>
 						</div>
