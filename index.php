@@ -60,7 +60,6 @@ if (isset($_SESSION['username']) && isset($_SESSION['password'])) {
 					<div class="navbar-nav">
 						<a class="nav-link active" aria-current="page" href="index.php"><i class="bi bi-house-door"></i> Beranda</a>
 						<a class="nav-link " href="galeri.php"><i class="bi bi-images"></i> Galeri Pondok</a>
-						<a class="nav-link " href="pendaftaran.php"><i class="bi bi-person-plus"></i> Pendaftaran</a>
 						<a class="nav-link " href="pengumuman.php"><i class="bi bi-bell"></i>Pengumuman</a>
 						<div class="dropdown"><button class="dropbtn"><i class="bi bi-files"></i>pendidikan</button>
 							<div class="dropdown-content">
@@ -71,6 +70,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['password'])) {
 								<a href="https://www.alghozali.ac.id/informasi/brosur-kegiatan-dan-biaya">Biaya dan Kegiatan</a>
 							</div>
 						</div>
+						<a class="nav-link " href="pendaftaran.php"><i class="bi bi-person-plus"></i> Pendaftaran</a>
 					</div>
 				</div>
 				<form class="d-flex">
@@ -113,7 +113,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['password'])) {
 					<div class="row radius m-0">
 						<ul class="text-primary">
 							<small>
-								<li><a href="https://api.whatsapp.com/send?phone=62885332428814&text=Halo%20Admin%20Saya%20Mau%20Tanya">Informasi tentang pendaftaran bisa di tanyakan melalui whatsapp (bisa klik disini)</a><br></li>
+								<li><a href="https://api.whatsapp.com/send?phone=628121379508&text=Halo%20Admin%20Saya%20Mau%20Tanya">Informasi tentang pendaftaran bisa di tanyakan melalui whatsapp (bisa klik disini)</a><br></li>
 								<li><a href="galeri.php">kegiatan kami akan selalu update di galeri pondok (bisa klik disini)</a></li>
 								<li><a href="https://www.instagram.com/daaruttazkia_official?igsh=MW95dDB0d2hhOTh0MA==">Follow Instagram Untuk mengikuti kegiatan kami (bisa klik disini)</a></li>
 								<li><a href="https://maps.app.goo.gl/8CnfWhMwfaXhYKrs6">Alamat pondok pesantren (bisa di klik disini)</a></li>
@@ -136,6 +136,31 @@ if (isset($_SESSION['username']) && isset($_SESSION['password'])) {
 			</div>
 		</div>
 	</div>
+
+	<!-- Konten 3-->
+	<div class="container mt-3">
+		<div class="row">
+			<!-- Konten Kanan -->
+			<div class="col-md-4 mb-4 bg-white radius" style="display: flex; margin-left: auto; margin-right: auto; width: 50%;">
+			<h5 style="text-align: center;">VISI</h5>
+					<ol>
+						<li style="text-align: left;">Mendirikan dan menyediakan sarana pendidikan islam yang baik, nyaman, representatif, dan berkualitas</li>
+						<li style="text-align: left;">Mewujudkan pendidikan yang islami, terintegrasi dengan teknologi sebagai sarana dakwah islamiyah</li>
+					</ol>
+			</div>
+
+
+			<!-- Konten Kiri -->
+			<div class="col-md-4 mb-4 bg-white radius" style="display: flex; margin-left: auto; margin-right: auto; width: 50%;">
+			<h5 style="text-align: center;">MISI</h5>
+					<ol>
+						<li style="text-align: left;">Mendirikan dan menyediakan sarana pendidikan islam yang baik, nyaman, representatif, dan berkualitas</li>
+						<li style="text-align: left;">Mewujudkan pendidikan yang islami, terintegrasi dengan teknologi sebagai sarana dakwah islamiyah</li>
+					</ol>
+			</div>
+		</div>
+	</div>
+	
 
 	<!-- footer -->
 	<footer>
