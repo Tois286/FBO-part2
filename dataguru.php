@@ -53,10 +53,10 @@
 	</div>
 	<!-- Konten -->
 	<div class="container mt-2">
-		<font size="2">
-			<div class="row">
-				<div class="container bg-white radius">
-					<table class="table text-center mt-2">
+		<div class="row">
+			<div class="container bg-white radius">
+				<div class="table-responsive">
+					<table class="table table-bordered table-hover text-center mt-2">
 						<thead class="table-primary radius">
 							<tr>
 								<th scope="col">No</th>
@@ -65,39 +65,48 @@
 								<th scope="col">Password</th>
 								<th scope="col">No.Induk Guru</th>
 								<th scope="col">Jenis Kelamin</th>
-								<th scope="col">Action</th>
+								<th scope="col" class="sticky-right">Action</th>
 							</tr>
 						</thead>
 						<tbody>
-							<tr>
-								<?php
-								include 'koneksi.php';
-								$no = 1;
-								$sql = mysqli_query($koneksi, "SELECT * FROM superuser");
-								while ($data = mysqli_fetch_array($sql)) {
-								?>
-							</tr>
-							<tr>
-								<td><?= $no++ ?></td>
-								<td><?= $data['id_guru']; ?></td>
-								<td><?= $data['username']; ?></td>
-								<td><?= $data['password']; ?></td>
-								<td><?= $data['guru']; ?></td>
-								<td><?= $data['jenis_kelamin']; ?></td>
-
-								<td>
-									<a href="editUser.php?id= <?= $data['username']; ?>" class="btn btn-primary btn-xs"><i class="bi bi-pencil-square"></i></a>
-									<a href="hapusUser.php?id= <?= $data['username']; ?>" class="btn btn-danger btn-xs"><i class="bi bi-trash3"></i></a>
-								</td>
-							</tr>
-						<?php } ?>
+							<?php
+							include 'koneksi.php';
+							$no = 1;
+							$sql = mysqli_query($koneksi, "SELECT * FROM superuser");
+							while ($data = mysqli_fetch_array($sql)) {
+							?>
+								<tr>
+									<td><?= $no++ ?></td>
+									<td><?= $data['id_guru']; ?></td>
+									<td><?= $data['username']; ?></td>
+									<td><?= $data['password']; ?></td>
+									<td><?= $data['guru']; ?></td>
+									<td><?= $data['jenis_kelamin']; ?></td>
+									<td class="sticky-right action-cell">
+										<a href="editUser.php?id=<?= $data['id_guru']; ?>" class="btn btn-primary btn-xs"><i class="bi bi-pencil-square"></i></a>
+										<a href="hapusUser.php?id=<?= $data['id_guru']; ?>" class="btn btn-danger btn-xs"><i class="bi bi-trash3"></i></a>
+									</td>
+								</tr>
+							<?php } ?>
 						</tbody>
 					</table>
 				</div>
 			</div>
+		</div>
 	</div>
-	</font>
 
+	<style>
+		table td.action-cell {
+			background-color: white !important;
+			/* Atur latar belakang untuk kolom "Action" */
+		}
+
+		.sticky-right {
+			position: sticky;
+			right: 0;
+			z-index: 2;
+		}
+	</style>
 	<!-- footer -->
 	<footer>
 		<?php include 'modul/footer.php'; ?>

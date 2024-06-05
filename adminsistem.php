@@ -32,94 +32,108 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 
 	<!-- Navbar -->
 	<div class="">
-		<nav class="container radius navbar navbar-expand-lg navbar-light " style="background-color: #ffffff;">
+		<nav class="container radius navbar navbar-expand-lg navbar-light" style="background-color: #ffffff;">
 			<div class="container-fluid">
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<div class="navbar-nav">
+					<div class="navbar-nav me-auto mb-2 mb-lg-0">
 						<a class="nav-link active" href="adminsistem.php"><i class="bi bi-card-checklist"></i> Data Siswa</a>
-						<a class="nav-link active" href="pengumumanPros.php"><i class="bi bi-bell"></i>Buat Pengumuman</a>
-						<a class="nav-link active" href="daftarUserPros.php"><i class="bi bi-person-plus"></i>Form SuperUser</a>
-						<a class="nav-link active" href="dataguru.php"><i class="bi bi-person"></i>Daftar SuperUser</a>
+						<a class="nav-link active" href="pengumumanPros.php"><i class="bi bi-bell"></i> Buat Pengumuman</a>
+						<a class="nav-link active" href="daftarUserPros.php"><i class="bi bi-person-plus"></i> Form SuperUser</a>
+						<a class="nav-link active" href="dataguru.php"><i class="bi bi-person"></i> Daftar SuperUser</a>
+					</div>
+
+					<form action="cari.php" method="POST" class="d-flex">
+						<input class="form-control me-2" type="search" placeholder="Cari" aria-label="Cari" id="cari" name="cari">
+						<button class="btn btn-outline-success" type="submit">Search</button>
+					</form>
+
+					<div class="d-flex">
+						<a href="logout.php" class="btn btn-outline-danger btn-sm me-2">
+							<i class="bi bi-box-arrow-left"></i>
+						</a>
+						<a href="print.php" class="btn btn-outline-warning btn-xs me-2"><i class="bi bi-printer"></i></a>
+						<a href="download2.php" class="btn btn-outline-primary btn-xs"><i class="bi bi-file-arrow-down"></i></a>
 					</div>
 				</div>
-				<form action="cari.php" method="POST" class="d-flex">
-					<input class="form-control" type="cari" placeholder="cari" aria-label="cari" id="cari" name="cari">
-					<button class="btn btn-outline-success" type="submit">Search</button>
-					<a href="logout.php" class="btn btn-outline-danger btn-sm">
-
-						<i class="bi bi-box-arrow-left"></i>
-						</i>
-					</a>
-					<a href="print.php" class="btn btn-outline-warning btn-xs"><i class="bi bi-printer"></i></a>
-					<a href="download2.php" class="btn btn-outline-primary btn-xs"><i class="bi bi-file-arrow-down"></i></a>
-				</form>
 			</div>
-
 		</nav>
 	</div>
+
 	<!-- Konten -->
 	<div class="container mt-2">
-		<font size="2">
-			<div class="row">
-				<div class="container bg-white radius">
+		<div class="row">
+			<div class="container bg-white radius">
+				<div class="table-responsive">
 					<table class="table text-center mt-2">
 						<thead class="table-primary radius">
 							<tr>
 								<th scope="col">No</th>
 								<th scope="col">No. Pendaftaran</th>
 								<th scope="col">Username</th>
-								<th scope="col">kode Santri</th>
+								<th scope="col">Kode Santri</th>
 								<th scope="col">Nama Lengkap</th>
 								<th scope="col">Jenis Kelamin</th>
 								<th scope="col">Tanggal Pendaftaran</th>
 								<th scope="col">Jenjang</th>
 								<th scope="col">Email</th>
-								<th scope="col">Status santri</th>
+								<th scope="col">Status Santri</th>
 								<th scope="col">Asal Sekolah</th>
-								<th scope="col">No.Telphone</th>
-								<th scope="col">info pembayaran</th>
-								<th scope="col">Action</th>
+								<th scope="col">No. Telepon</th>
+								<th scope="col">Info Pembayaran</th>
+								<th scope="col" class="sticky-right">Action</th>
 							</tr>
 						</thead>
 						<tbody>
-							<tr>
-								<?php
-								include 'koneksi.php';
-								$no = 1;
-								$sql = mysqli_query($koneksi, "SELECT * FROM data_siswa");
-								while ($data = mysqli_fetch_array($sql)) {
-								?>
-							</tr>
-							<tr>
-								<td><?= $no++ ?></td>
-								<td><?= $data['id_siswa']; ?></td>
-								<td><?= $data['username_siswa']; ?></td>
-								<td><?= $data['kode']; ?></td>
-								<td><?= $data['nama_siswa']; ?></td>
-								<td><?= $data['Jenis_kelamin']; ?></td>
-								<td><?= $data['tanggal_daftar']; ?></td>
-								<td><?= $data['jenjang']; ?></td>
-								<td><?= $data['email_siswa']; ?></td>
-								<td><?= $data['status']; ?></td>
-								<td><?= $data['asal_skolah']; ?></td>
-								<td><?= $data['no_telphon']; ?></td>
-								<td><?= $data['judul_file_pdf']; ?></td>
-								<td>
-									<a href="edit.php?id= <?= $data['id_siswa']; ?>" class="btn btn-outline-primary btn-xs"><i class="bi bi-pencil-square"></i></a>
-									<a href="hapus.php?id= <?= $data['id_siswa']; ?>" class="btn btn-outline-danger btn-xs"><i class="bi bi-trash3"></i></a>
-								</td>
-							</tr>
-						<?php } ?>
+							<?php
+							include 'koneksi.php';
+							$no = 1;
+							$sql = mysqli_query($koneksi, "SELECT * FROM data_siswa");
+							while ($data = mysqli_fetch_array($sql)) {
+							?>
+								<tr>
+									<td><?= $no++ ?></td>
+									<td><?= $data['id_siswa']; ?></td>
+									<td><?= $data['username_siswa']; ?></td>
+									<td><?= $data['kode']; ?></td>
+									<td><?= $data['nama_siswa']; ?></td>
+									<td><?= $data['Jenis_kelamin']; ?></td>
+									<td><?= $data['tanggal_daftar']; ?></td>
+									<td><?= $data['jenjang']; ?></td>
+									<td><?= $data['email_siswa']; ?></td>
+									<td><?= $data['status']; ?></td>
+									<td><?= $data['asal_skolah']; ?></td>
+									<td><?= $data['no_telphon']; ?></td>
+									<td><?= $data['judul_file_pdf']; ?></td>
+									<td class="sticky-right action-cell">
+										<a href="edit.php?id=<?= $data['id_siswa']; ?>" class="btn btn-outline-primary btn-xs"><i class="bi bi-pencil-square"></i></a>
+										<a href="hapus.php?id=<?= $data['id_siswa']; ?>" class="btn btn-outline-danger btn-xs"><i class="bi bi-trash3"></i></a>
+									</td>
+								</tr>
+							<?php } ?>
 						</tbody>
 					</table>
 				</div>
 			</div>
+		</div>
 	</div>
-	</font>
+
+	<style>
+		table td.action-cell {
+			background-color: white !important;
+			/* Atur latar belakang untuk kolom "Action" */
+		}
+
+		.sticky-right {
+			position: sticky;
+			right: 0;
+			z-index: 2;
+		}
+	</style>
+
 
 	<!-- footer -->
 	<footer>

@@ -94,7 +94,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 									<th scope="col">Asal Sekolah</th>
 									<th scope="col">No.Telphone</th>
 									<th scope="col">info pembayaran</th>
-									<th scope="col">Action</th>
+									<th scope="col" class="sticky-right">Action</th>
 								</tr>
 
 							</thead>
@@ -120,7 +120,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 									<td><?= $data['asal_skolah']; ?></td>
 									<td><?= $data['no_telphon']; ?></td>
 									<td><?= $data['judul_file_pdf']; ?></td>
-									<td>
+									<td class="sticky-right action-cell">
 										<a href="edit.php?id= <?= $data['id_siswa']; ?>" class="btn btn-outline-primary btn-xs"><i class="bi bi-pencil-square"></i></a>
 										<a href="hapus.php?id= <?= $data['id_siswa']; ?>" class="btn btn-outline-danger btn-xs"><i class="bi bi-trash3"></i></a>
 									</td>
@@ -132,7 +132,18 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 				</div>
 		</div>
 	</div>
-	</font>
+	<style>
+		table td.action-cell {
+			background-color: white !important;
+			/* Atur latar belakang untuk kolom "Action" */
+		}
+
+		.sticky-right {
+			position: sticky;
+			right: 0;
+			z-index: 2;
+		}
+	</style>
 
 	<!-- footer -->
 	<footer>
