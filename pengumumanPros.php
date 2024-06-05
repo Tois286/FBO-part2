@@ -17,18 +17,24 @@
 <body>
 	<!-- Heading -->
 	<div class=" heading pt-3 pb-1 mb-3">
-	<div class="container">
-		<center><img src="img\logo1.png" class="gambar logo-navbar" heigth=120px width=90px/></center>
-			<h4 class=" text-white"><font size="4">
-			<center>Penerimaan Santri Baru Online</font></center>
+		<div class="container">
+			<center><img src="img\logo1.png" class="gambar logo-navbar" heigth=120px width=90px /></center>
+			<h4 class=" text-white">
+				<font size="4">
+					<center>Penerimaan Santri Baru Online
+				</font>
+				</center>
 			</h4>
 			<h5 class=" text-white m-minus">
 				<font class="text-pondok" size="6">
 					<center>PONDOK MODERN AL-GHOZALI</center>
 				</font>
 			</h5>
-			<h6 class="text-white m-minus text-alamat-on-navbar"><font size="3">
-				<center>Jl. Permata No.19, RT.06/RW.05, Curug, Kec. Gn. Sindur, Kabupaten Bogor, Jawa Barat 16340</font></center>
+			<h6 class="text-white m-minus text-alamat-on-navbar">
+				<font size="3">
+					<center>Jl. Permata No.19, RT.06/RW.05, Curug, Kec. Gn. Sindur, Kabupaten Bogor, Jawa Barat 16340
+				</font>
+				</center>
 			</h6>
 
 		</div>
@@ -44,24 +50,22 @@
 
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<div class="navbar-nav">
-						<a class="nav-link " href="index.php"><i class="bi bi-house-door"></i> Beranda</a>
 						<a class="nav-link active" href="adminsistem.php"><i class="bi bi-card-checklist"></i> Data Siswa</a>
-						<a class="nav-link active" href="pengumuman.php"><i class="bi bi-bell"></i>Pengumuman</a>
-						<div class="dropdown"><button class="dropbtn"><i class="bi bi-files"></i>pendidikan</button>
-						<div class="dropdown-content">
-						<a href="https://www.alghozali.ac.id/profil/taman-pendidikan-al-quran-TPQ">Taman Pendidikan Al-Qur'an</a>
-						<a href="https://www.alghozali.ac.id/profil/madrasah-ibtidaiyah-mi">Madrasah Ibtidaiyah (MI)</a>
-						<a href="https://www.alghozali.ac.id/profil/smp-islam">SMP Islam Al-Ghozali</a>
-						<a href="https://www.alghozali.ac.id/profil/sma-islam">SMA Islam Al-Ghozali</a>
-						<a href="https://www.alghozali.ac.id/informasi/brosur-kegiatan-dan-biaya">Biaya dan Kegiatan</a>
-
-</div>
-</div>
+						<a class="nav-link active" href="pengumumanPros.php"><i class="bi bi-bell"></i>Buat Pengumuman</a>
+						<a class="nav-link active" href="daftarUserPros.php"><i class="bi bi-person-plus"></i>Form SuperUser</a>
+						<a class="nav-link active" href="dataguru.php"><i class="bi bi-person"></i>Daftar SuperUser</a>
 					</div>
 				</div>
-				<form class="d-flex">
-					<a href="login.php" class="btn btn-outline-danger">Login</a>
-					<a href="pengumumanHapus.php" class="btn btn-danger">Kosongkan</a>
+				<form action="cari.php" method="POST" class="d-flex">
+					<input class="form-control" type="cari" placeholder="cari" aria-label="cari" id="cari" name="cari">
+					<button class="btn btn-outline-success" type="submit">Search</button>
+					<a href="logout.php" class="btn btn-outline-danger btn-sm">
+
+						<i class="bi bi-box-arrow-left"></i>
+						</i>
+					</a>
+					<a href="print.php" class="btn btn-outline-warning btn-xs"><i class="bi bi-printer"></i></a>
+					<a href="download2.php" class="btn btn-outline-primary btn-xs"><i class="bi bi-file-arrow-down"></i></a>
 				</form>
 			</div>
 
@@ -74,58 +78,65 @@
 			<!-- Konten kiri -->
 			<div class=" col bg-white radius">
 				<div class="card my-3">
-                <form action="pengumumanAct.php" method="POST">
-					<div class="card-header text-white"  style="background-color: #3c8dbc;">
+					<form action="pengumumanAct.php" method="POST">
+						<div class="card-header text-white" style="background-color: #3c8dbc;">
 							<input type="header1" class="form-control" id="header1" placeholder="masukan text" name="header1">
-					</div>
-					<div class="card-body">
-						<h5 class="card-title"><input type="title1" class="form-control" id="title1" placeholder="masukan text" name="title1"></h5>
-						<p class="card-text"><input type="isi1" class="form-control" id="isi1" placeholder="masukan text" name="isi1"></p>
-                
-						<a href="#" class="btn btn btn-outline-primary btn-sm">Read More</a>
-					</div>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title"><input type="title1" class="form-control" id="title1" placeholder="masukan text" name="title1"></h5>
+							<p class="card-text"><input type="isi1" class="form-control" id="isi1" placeholder="masukan text" name="isi1"></p>
+
+							<a href="#" class="btn btn btn-outline-primary btn-sm">Read More</a>
+						</div>
 				</div>
-				<p><button type="submit" name="submit" value="submit" class="btn btn-primary btn-sm" ><i class="bi bi-save2"></i> Submit</button>
+				<p><button type="submit" name="submit" value="submit" class="btn btn-primary btn-sm"><i class="bi bi-save2"></i> Submit</button>
 			</div>
-			
+
 			<!-- Konten bawah -->
 			<tbody>
-		<tr>
-		<?php
-			include 'koneksi.php';
-			$no = 1;
-			$sql = mysqli_query($koneksi, "SELECT * FROM pengumuman");
-			while ($text = mysqli_fetch_array($sql)) {
-		?>
-		</tr>
-	<div class="container mt-3">
-		<div class="row">
-			<!-- Konten kiri -->
-			<!--tinggal cngambil output text kedalam class card-->
-			<div class=" col bg-white radius">
-				<div class="card my-3">
-					<div class="card-header text-white"  style="background-color: #3c8dbc;">
-					<td><?= $text['header1']; ?></td>
-					</div>
-					<div class="card-body"><font size="2"><p>terbit pada tanggal : <?= $text['terbit']; ?></p></font>
-						<h5 class="card-title"><td><?= $text['text']; ?></td></h5>
-						<p class="card-text"><td><?= $text['isi']; ?></td></p>
-						
-						<td><a href="#" class="btn btn btn-outline-primary btn-sm">Read More</a></td>
+				<tr>
+					<?php
+					include 'koneksi.php';
+					$no = 1;
+					$sql = mysqli_query($koneksi, "SELECT * FROM pengumuman");
+					while ($text = mysqli_fetch_array($sql)) {
+					?>
+				</tr>
+				<div class="container mt-3">
+					<div class="row">
+						<!-- Konten kiri -->
+						<!--tinggal cngambil output text kedalam class card-->
+						<div class=" col bg-white radius">
+							<div class="card my-3">
+								<div class="card-header text-white" style="background-color: #3c8dbc;">
+									<td><?= $text['header1']; ?></td>
+								</div>
+								<div class="card-body">
+									<font size="2">
+										<p>terbit pada tanggal : <?= $text['terbit']; ?></p>
+									</font>
+									<h5 class="card-title">
+										<td><?= $text['text']; ?></td>
+									</h5>
+									<p class="card-text">
+										<td><?= $text['isi']; ?></td>
+									</p>
+
+									<td><a href="#" class="btn btn btn-outline-primary btn-sm">Read More</a></td>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-	</div>
-	<?php } ?>
-</tbody>
+			<?php } ?>
+			</tbody>
 		</div>
 	</div>
 
 	<!-- footer -->
 	<div class="container-fluid my-3 text-center heading text-white">
 		<p>Copyright @ 2023 <a href="index.php" class=" text-white">Pesantren Al-Ghozali</a><br>
-		Create_By @ 2023 <a href="https://www.instagram.com/tois_n10/?igshid=ZDdkNTZiNTM%3D" class=" text-white">Toto_Iswanto</a></p>
+			Create_By @ 2023 <a href="https://www.instagram.com/tois_n10/?igshid=ZDdkNTZiNTM%3D" class=" text-white">Toto_Iswanto</a></p>
 	</div>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

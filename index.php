@@ -143,6 +143,18 @@ if (isset($_SESSION['username']) && isset($_SESSION['password'])) {
 			</div>
 		</div>
 	</div>
+	<!-- menambah content -->
+	<div class="container mt-3">
+		<div class="row">
+			<div class="col bg-white radius p-3">
+				<h2>Profil Pondok Pesantren</h2>
+				<p>Pondok Pesantren Al-Ghozali didirikan pada tahun XXXX, dengan visi dan misi untuk ...</p>
+				<p>Fasilitas yang tersedia di pondok pesantren kami meliputi ...</p>
+				<p>Program-program unggulan kami adalah ...</p>
+				<img src="img/santri.jpg" class="d-block w-100 radius mt-2 mb-2" alt="Profil Pondok">
+			</div>
+		</div>
+	</div>
 
 	<!-- footer -->
 	<div class="container-fluid my-3 text-center heading text-white">
