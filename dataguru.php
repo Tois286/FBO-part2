@@ -16,29 +16,9 @@
 
 <body>
 	<!-- Heading -->
-	<div class=" heading pt-3 pb-1 mb-3">
-		<div class="container">
-			<center><img src="img\logo1.png" class="gambar logo-navbar" heigth=120px width=90px /></center>
-			<h4 class=" text-white">
-				<font size="4">
-					<center>Penerimaan Santri Baru Online
-				</font>
-				</center>
-			</h4>
-			<h5 class=" text-white m-minus">
-				<font class="text-pondok" size="6">
-					<center>PONDOK MODERN AL-GHOZALI</center>
-				</font>
-			</h5>
-			<h6 class="text-white m-minus text-alamat-on-navbar">
-				<font size="3">
-					<center>Jl. Permata No.19, RT.06/RW.05, Curug, Kec. Gn. Sindur, Kabupaten Bogor, Jawa Barat 16340
-				</font>
-				</center>
-			</h6>
-
-		</div>
-	</div>
+	<heading>
+		<?php include 'modul/heading.php'; ?>
+	</heading>
 
 	<!-- Navbar -->
 	<div class="">
@@ -119,10 +99,9 @@
 	</font>
 
 	<!-- footer -->
-	<div class="container-fluid my-3 text-center heading text-white">
-		<p>Copyright @ 2023 <a href="index.php" class=" text-white">Pesantren Al-Ghozali</a><br>
-			Create_By @ 2023 <a href="https://www.instagram.com/tois_n10/?igshid=ZDdkNTZiNTM%3D" class=" text-white">Toto_Iswanto</a></p>
-	</div>
+	<footer>
+		<?php include 'modul/footer.php'; ?>
+	</footer>
 
 
 
