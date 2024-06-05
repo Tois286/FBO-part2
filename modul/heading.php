@@ -9,7 +9,7 @@
         </h4>
         <h5 class=" text-white m-minus">
             <font class="text-pondok" size="6">
-                <center>DAARUT TAZKIA</center>
+                <center>PONDOK PESANTREN DAARUT TAZKIA</center>
             </font>
         </h5>
         <h6 class="text-white m-minus text-alamat-on-navbar">
