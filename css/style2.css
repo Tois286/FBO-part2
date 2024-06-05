@@ -1,15 +1,47 @@
 body {
-  padding: 10px;
+  padding: 20px;
+  /* Memperbesar padding agar lebih lega */
+  background-color: #b8b8b8 !important;
+  /* Warna latar belakang untuk body */
 }
+
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* Lebarkan minmax agar lebih responsif */
+  grid-gap: 20px;
+  /* Tingkatkan jarak antara box */
 }
+
 img {
   width: 100%;
   border-radius: 20px;
+  transition: transform 0.3s ease;
+  /* Tambahkan efek transisi saat hover */
 }
+
 .box {
-  padding: 10px;
+  padding: 15px;
+  background-color: #fff !important;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Tambahkan bayangan untuk efek kedalaman */
 }
+
+.box:hover img {
+  transform: scale(1.05);
+  /* Perbesar gambar saat hover */
+}
+ .navbar-brand {
+   font-size: 24px;
+   font-weight: bold;
+   
+ }
+
+ .navbar-nav .nav-link {
+   font-size: 18px;
+ }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
