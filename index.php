@@ -21,6 +21,10 @@ if (isset($_SESSION['username']) && isset($_SESSION['password'])) {
 
 	<title>Beranda</title>
 	<style>
+		.radius {
+			border-radius: 10px;
+		}
+
 		@media only screen and (max-width: 600px) {
 			.logo-navbar {
 				width: 20%;
@@ -139,28 +143,28 @@ if (isset($_SESSION['username']) && isset($_SESSION['password'])) {
 
 	<!-- Konten 3-->
 	<div class="container mt-3">
-		<div class="row">
-			<!-- Konten Kanan -->
-			<div class="col-md-4 mb-4 bg-white radius" style="display: flex; margin-left: auto; margin-right: auto; width: 50%;">
-			<h5 style="text-align: center;">VISI</h5>
-					<ol>
-						<li style="text-align: left;">Mendirikan dan menyediakan sarana pendidikan islam yang baik, nyaman, representatif, dan berkualitas</li>
-						<li style="text-align: left;">Mewujudkan pendidikan yang islami, terintegrasi dengan teknologi sebagai sarana dakwah islamiyah</li>
-					</ol>
+		<div class="row justify-content-center">
+			<!-- Konten Visi -->
+			<div class="col-sm-6 bg-white radius card" style="width: 49%; margin-right: 10px;">
+				<h5 class="text-center">VISI</h5>
+				<ol>
+					<li>Mendirikan dan menyediakan sarana pendidikan Islam yang baik, nyaman, representatif, dan berkualitas.</li>
+					<li>Mewujudkan pendidikan yang Islami, terintegrasi dengan teknologi sebagai sarana dakwah Islamiyah.</li>
+				</ol>
 			</div>
 
-
-			<!-- Konten Kiri -->
-			<div class="col-md-4 mb-4 bg-white radius" style="display: flex; margin-left: auto; margin-right: auto; width: 50%;">
-			<h5 style="text-align: center;">MISI</h5>
-					<ol>
-						<li style="text-align: left;">Mendirikan dan menyediakan sarana pendidikan islam yang baik, nyaman, representatif, dan berkualitas</li>
-						<li style="text-align: left;">Mewujudkan pendidikan yang islami, terintegrasi dengan teknologi sebagai sarana dakwah islamiyah</li>
-					</ol>
+			<!-- Konten Misi -->
+			<div class="col-sm-6 bg-white radius card" style="width: 49%;margin-left: 10px;">
+				<h5 class="text-center">MISI</h5>
+				<ol>
+					<li>Mendirikan dan menyediakan sarana pendidikan Islam yang baik, nyaman, representatif, dan berkualitas.</li>
+					<li>Mewujudkan pendidikan yang Islami, terintegrasi dengan teknologi sebagai sarana dakwah Islamiyah.</li>
+				</ol>
 			</div>
 		</div>
 	</div>
-	
+
+
 
 	<!-- footer -->
 	<footer>
