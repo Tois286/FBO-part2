@@ -12,11 +12,15 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
+    <!-- Lightbox CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style2.css">
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg" style="background-color: white; border-radius: 10px;">
         <div class="container">
             <a class="navbar-brand" href="index.php"><img src="img/logo1.png" style="width: 200px;" alt="Logo"></a>
@@ -43,41 +47,53 @@
     </nav><br>
 
     <div class="wrapper">
-        <div class="box"><img src="img/DT.jpg" alt="">
-            <p>keterangan gambar</p>
+        <div class="box">
+            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Keterangan</p>
         </div>
-        <div class="box"><img src="img/DT.jpg" alt="">
-            <p>keterangan gambar</p>
+        <div class="box">
+            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Keterangan</p>
         </div>
-        <div class="box"><img src="img/DT.jpg" alt="">
-            <p>keterangan gambar</p>
+        <div class="box">
+            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Keterangan</p>
         </div>
-        <div class="box"><img src="img/DT.jpg" alt="">
-            <p>keterangan gambar</p>
+        <div class="box">
+            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Keterangan</p>
         </div>
-        <div class="box"><img src="img/DT.jpg" alt="">
-            <p>keterangan gambar</p>
+        <div class="box">
+            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Keterangan</p>
         </div>
-        <div class="box"><img src="img/DT.jpg" alt="">
-            <p>keterangan gambar</p>
+        <div class="box">
+            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Keterangan</p>
         </div>
-        <div class="box"><img src="img/DT.jpg" alt="">
-            <p>keterangan gambar</p>
+        <div class="box">
+            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Keterangan</p>
         </div>
-        <div class="box"><img src="img/DT.jpg" alt="">
-            <p>keterangan gambar</p>
+        <div class="box">
+            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Keterangan</p>
         </div>
-        <div class="box"><img src="img/DT.jpg" alt="">
-            <p>keterangan gambar</p>
+        <div class="box">
+            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Keterangan</p>
         </div>
-        <div class="box"><img src="img/DT.jpg" alt="">
-            <p>keterangan gambar</p>
+        <div class="box">
+            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Keterangan</p>
         </div>
-        <div class="box"><img src="img/DT.jpg" alt="">
-            <p>keterangan gambar</p>
+        <div class="box">
+            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Keterangan</p>
         </div>
-        <div class="box"><img src="img/DT.jpg" alt="">
-            <p>keterangan gambar</p>
+        <div class="box">
+            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Keterangan</p>
         </div>
     </div>
 
@@ -85,9 +101,38 @@
         <?php include 'modul/footer.php'; ?>
     </footer>
 
+    <!-- Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel">Galeri</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="" id="modalImage" class="img-fluid" alt="Gambar">
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        function showImage(element) {
+            const src = element.getAttribute('src');
+            document.getElementById('modalImage').setAttribute('src', src);
+        }
+    </script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 </body>
 
 </html>
