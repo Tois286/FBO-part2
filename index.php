@@ -44,29 +44,9 @@ if (isset($_SESSION['username']) && isset($_SESSION['password'])) {
 
 <body>
 	<!-- Heading -->
-	<div class=" heading pt-3 pb-1 mb-3">
-		<div class="container">
-			<center><img src="img\logo.png" class="gambar logo-navbar" heigth=120px width=90px /></center>
-			<h4 class=" text-white">
-				<font size="4">
-					<center>Yayasan Durratul Yatimah
-				</font>
-				</center>
-			</h4>
-			<h5 class=" text-white m-minus">
-				<font class="text-pondok" size="6">
-					<center>PONDOK PESANTREN DAARUT TAZKIA</center>
-				</font>
-			</h5>
-			<h6 class="text-white m-minus text-alamat-on-navbar">
-				<font size="3">
-					<center>Jl. Kp. Cibarengkok No.23, Pengasinan, Kec. Gn. Sindur, Kabupaten Bogor, Jawa Barat 16340
-				</font>
-				</center>
-			</h6>
-
-		</div>
-	</div>
+	<heading>
+		<?php include 'modul/heading.php'; ?>
+	</heading>
 
 	<!-- Navbar -->
 	<div class="">
@@ -125,7 +105,7 @@ if (isset($_SESSION['username']) && isset($_SESSION['password'])) {
 					</small>
 					<div class="mt-2 ">
 						<button type="submit" class="btn btn-success btn-sm	"><i class="bi bi-box-arrow-in-right"></i> Masuk</button>
-						
+
 					</div>
 					<div class="row mt-2 ">
 						<h6> <strong>Pusat Bantuan :</strong></h6>
@@ -150,18 +130,17 @@ if (isset($_SESSION['username']) && isset($_SESSION['password'])) {
 			<div class="col bg-white radius p-3">
 				<h2>Profil Pondok Pesantren</h2>
 				<p>Pesantren Daarut Tazkia didirikan pada tahun 2007 sebagai wadah perjuangan untuk mengembangkan dakwah islamiyah disaat sudah banyak generasi islam yang yang sudah mulai jauh dan bangga dari nilai-nilai mulia agama islam</p>
-				<p>Pesantren ini memiliki Keunggulan Program Pendidikan yang terpadu dimana selain pengetahuan Agama  yang merupakan dasar pendidikan formal, juga pengetahuan umum yang merupakan sistem dari DepDikNas. Keunggulan program lain di pesantren ini adalah masih dipelajarinya kitab-kitab salaf kuning yang merupakan rujukan ulama salaf dan modern agar santri dapat lebih mudah memahami agama secara konprehensif sebagai kebijakan moral bagi seorang muslim yang dalam kehidupannya harus tetap beroreantasi akhirat.</p>
+				<p>Pesantren ini memiliki Keunggulan Program Pendidikan yang terpadu dimana selain pengetahuan Agama yang merupakan dasar pendidikan formal, juga pengetahuan umum yang merupakan sistem dari DepDikNas. Keunggulan program lain di pesantren ini adalah masih dipelajarinya kitab-kitab salaf kuning yang merupakan rujukan ulama salaf dan modern agar santri dapat lebih mudah memahami agama secara konprehensif sebagai kebijakan moral bagi seorang muslim yang dalam kehidupannya harus tetap beroreantasi akhirat.</p>
 				<p>Hal itu kami wujudkan dengan cara memprioritaskan santri untuk sejak dini lebih banyak mempraktekan ajaran Agama sehari-hari seperti sholat berjama'ah, tahajjud, memimpin dzikir, tahlil, doa, dan lain-lain yang sangant dibutuhkan ketika mereka kelak terjun langsung kepada objek dakwah/masyarakat.</p>
-				
+
 			</div>
 		</div>
 	</div>
 
 	<!-- footer -->
-	<div class="container-fluid my-3 text-center heading text-white">
-		<p>Copyright @ 2023 <a href="index.php" class=" text-white">Pesantren Daarut Tazkia</a><br>
-			Create_By @ 2023 <a href="https://www.instagram.com/tois_n10/?igshid=ZDdkNTZiNTM%3D" class=" text-white">Rifqi Ahmad Fauzi</a></p>
-	</div>
+	<footer>
+		<?php include 'modul/footer.php'; ?>
+	</footer>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
