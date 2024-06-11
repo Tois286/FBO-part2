@@ -67,18 +67,16 @@ if (isset($_SESSION['username']) && isset($_SESSION['password'])) {
 						<a class="nav-link " href="pengumuman.php"><i class="bi bi-bell"></i>Pengumuman</a>
 						<div class="dropdown"><button class="dropbtn"><i class="bi bi-files"></i>pendidikan</button>
 							<div class="dropdown-content">
-								<a href="https://www.alghozali.ac.id/profil/taman-pendidikan-al-quran-TPQ">Taman Pendidikan Al-Qur'an</a>
-								<a href="https://www.alghozali.ac.id/profil/madrasah-ibtidaiyah-mi">Madrasah Ibtidaiyah (MI)</a>
-								<a href="https://www.alghozali.ac.id/profil/smp-islam">SMP Islam Al-Ghozali</a>
-								<a href="https://www.alghozali.ac.id/profil/sma-islam">SMA Islam Al-Ghozali</a>
-								<a href="https://www.alghozali.ac.id/informasi/brosur-kegiatan-dan-biaya">Biaya dan Kegiatan</a>
+								<a href="brosur.php">Brosur</a>
+								<a href="kegiatan.php">Biaya dan Kegiatan</a>
+								<a href="https://www.instagram.com/daaruttazkia_official?igsh=MW95dDB0d2hhOTh0MA==">Instagram</a>
 							</div>
 						</div>
 						<a class="nav-link " href="pendaftaran.php"><i class="bi bi-person-plus"></i> Pendaftaran</a>
 					</div>
 				</div>
 				<form class="d-flex">
-					<a href="login.php" class="btn btn-outline-danger">Login</a>
+					<a href="login.php" class="btn btn-outline-danger">Login Admin</a>
 				</form>
 			</div>
 
