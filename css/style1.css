@@ -1,5 +1,5 @@
 body {
-  background-image: url("bg4.jpg") !important;
+  background-image: url("../img/BG.jpg");
   background-size: cover;
 }
 .transparent {

@@ -63,9 +63,9 @@ mysqli_insert_id($koneksi);
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <!-- footer -->
-	<div class="container-fluid my-3 text-center heading text-primary">
-		<p>Copyright @ 2023 <a href="index.php" class=" text-primary">Pesantren Al-Ghozali</a><br>
-		Create_By @ 2023 <a href="https://www.instagram.com/tois_n10/?igshid=ZDdkNTZiNTM%3D" class=" text-primary">Toto_Iswanto</a></p>
-	</div>
+        <footer>
+		<?php include 'modul/footer.php' ?>
+	    </footer>
+
     </body>
 </html>
