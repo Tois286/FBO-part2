@@ -53,7 +53,6 @@ if (isset($_SESSION['username']) && isset($_SESSION['password'])) {
 	</heading>
 
 	<!-- Navbar -->
-<<<<<<< HEAD
 	<div class="">
 		<nav class="container radius navbar navbar-expand-lg navbar-light " style="background-color: #ffffff;">
 			<div class="container-fluid">
@@ -83,10 +82,6 @@ if (isset($_SESSION['username']) && isset($_SESSION['password'])) {
 
 		</nav>
 	</div>
-=======
-	<?php include 'modul/navbar.php'; ?>
->>>>>>> 04fe8785b79827cc56a9f3b9d0c3b961a208477b
-
 	<!-- Konten -->
 	<div class="container mt-3">
 		<div class="row">
