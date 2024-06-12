@@ -16,20 +16,9 @@
 
 <body>
 	<!-- Heading -->
-	<div class=" heading pt-3 pb-1 mb-3">
-		<div class="container">
-
-			<h4 class=" text-white">
-				<center>Penerimaan Santri & Santri Wati Baru Online</center>
-			</h4>
-			<h5 class=" text-white m-minus">
-				<center>PONDOK PESANTREN AL-GHOZALI</center>
-			</h5>
-			<h6 class="text-white m-minus">
-				<center>Jl. Permata No.19, RT.06/RW.05, Curug, Kec. Gn. Sindur, Kabupaten Bogor, Jawa Barat 16340</center> 
-			</h6>
-		</div>
-	</div>
+	<heading>
+        <?php include "modul/heading.php" ?>
+    </heading>
 
 <?php 
 include('koneksi.php');
@@ -88,8 +77,9 @@ if(isset($_POST['tombol']))
 		</div>
 	</div>
         	<!-- footer -->
-	<div class="container-fluid my-3 text-center heading text-white"><p>Copyright @ 2023 <a href="index.php" class=" text-white">Pesantren Al-Ghozali</a><br>
-		Create_By @ 2023 <a href="https://www.instagram.com/tois_n10/?igshid=ZDdkNTZiNTM%3D" class=" text-white">Toto_Iswanto</a></p>
+	<footer>
+        <?php include "modul/footer.php" ?>
+    </footer>
 	</div>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
