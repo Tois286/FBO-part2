@@ -67,6 +67,10 @@ if(isset($_POST['tombol']))
                 <td><input type="file" name="gambar"/></td>
             </tr>
             <tr>
+                <td class="text-black">Gambar</td>
+                <td><input type="file" name="gambar"/></td>
+            </tr>
+            <tr>
                 <td></td>
                 <td><input type="submit" name="tombol"/></td>
             </tr>
