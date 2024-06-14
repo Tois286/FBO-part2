@@ -12,7 +12,6 @@ $result3 = mysqli_query($koneksi, $query_sql3);
 
 if (mysqli_num_rows($result2) > 0) {
     while ($row = mysqli_fetch_row($result2)) {
-        $_SESSION['id'] =  $row[0];
         $_SESSION['username'] = $row[1];
         $_SESSION['password'] = $password;
     }
