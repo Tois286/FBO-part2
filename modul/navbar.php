@@ -13,7 +13,7 @@
 						<div class="dropdown"><button class="dropbtn"><i class="bi bi-files"></i>pendidikan</button>
 							<div class="dropdown-content">
 								<a href="brosur.php">Brosur</a>
-								<a href="kegiatan.php">Biaya dan Kegiatan</a>
+								<a href="biaya.php">Biaya dan Kegiatan</a>
 								<a href="https://www.instagram.com/daaruttazkia_official?igsh=MW95dDB0d2hhOTh0MA==">Instagram</a>
 							</div>
 						</div>

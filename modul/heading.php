@@ -14,9 +14,10 @@
         </h5>
         <h6 class="text-white m-minus text-alamat-on-navbar">
             <font size="3">
-                <center>Jl. Kp. Cibarengkok No.23, Pengasinan, Kec. Gn. Sindur, Kabupaten Bogor, Jawa Barat 16340
+                <center>Jl. Kp. Cibarengkok No.23, Pengasinan, Kec. Gn. Sindur, Kabupaten Bogor, Jawa Barat 16340</center>
+                <center>0812-1379-508</center>
+            
             </font>
-            </center>
         </h6>
 
     </div>

@@ -49,52 +49,52 @@
 
     <div class="wrapper">
         <div class="box">
-            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
+            <img src="img/22.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Pengajian Rutin Malam Jum'at</p>
+        </div>
+        <div class="box">
+            <img src="img/19.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Hadroh EL Tazkia</p>
+        </div>
+        <div class="box">
+            <img src="img/20.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Majlis Sholawat</p>
+        </div>
+        <div class="box">
+            <img src="img/24.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Praktek Mengurus Jenazah</p>
+        </div>
+        <div class="box">
+            <img src="img/1.JPG" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Pawai Obor</p>
+        </div>
+        <div class="box">
+            <img src="img/23.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Belajar Komputer</p>
+        </div>
+        <div class="box">
+            <img src="img/21.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Juara MHQ dan MTQ</p>
+        </div>
+        <div class="box">
+            <img src="img/25.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Ekskul Pancak Silat</p>
         </div>
         <div class="box">
             <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
+            <p>Ekskul Paskibra</p>
         </div>
         <div class="box">
-            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
+            <img src="img/27.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Safari Dakwah</p>
         </div>
         <div class="box">
-            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
+            <img src="img/28.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Ekskul Pramuka</p>
         </div>
         <div class="box">
-            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
-        </div>
-        <div class="box">
-            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
-        </div>
-        <div class="box">
-            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
-        </div>
-        <div class="box">
-            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
-        </div>
-        <div class="box">
-            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
-        </div>
-        <div class="box">
-            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
-        </div>
-        <div class="box">
-            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
-        </div>
-        <div class="box">
-            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
+            <img src="img/26.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Lomba 17 Agustus</p>
         </div>
     </div>
 
