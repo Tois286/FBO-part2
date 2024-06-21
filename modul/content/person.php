@@ -59,6 +59,7 @@
         z-index: 1000;
         opacity: 0;
         visibility: hidden;
+
     }
 
     .card2-header {
@@ -114,6 +115,7 @@
         border-radius: 12px;
         padding: 20px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border: 1px solid #ffa117;
     }
 
     .card-right {
@@ -123,5 +125,6 @@
         border-radius: 12px;
         padding: 20px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border: 1px solid #ffa117;
     }
 </style>

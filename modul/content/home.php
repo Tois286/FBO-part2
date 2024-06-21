@@ -6,7 +6,9 @@
         This is the content of the card. You can put any information you want here.
     </div>
     <div class="card-footer">
-        <button class="card-button">Button</button>
+        <center>
+            <a class="card-button" href="logout.php">Logout</a>
+        </center>
     </div>
 </div>
 
@@ -52,7 +54,10 @@
     }
 
     .card-button {
-        background: var(--bg);
+        display: inline-block !important;
+        text-align: center;
+        text-decoration: none;
+        background: #f44336;
         color: #fff;
         border: none;
         padding: 10px 20px;
