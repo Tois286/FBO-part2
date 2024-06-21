@@ -84,8 +84,32 @@ if (isset($_SESSION['username']) && isset($_SESSION['password'])) {
 			<div class="col-sm-6 bg-white radius card" style="width: 49%;margin-left: 10px;">
 				<h5 class="text-center">AKTIVITAS HARIAN SANTRI</h5>
 				<ol>
-					<li>Mendirikan dan menyediakan sarana pendidikan Islam yang baik, nyaman, representatif, dan berkualitas.</li>
-					<li>Mewujudkan pendidikan yang Islami, terintegrasi dengan teknologi sebagai sarana dakwah Islamiyah.</li>
+					<li style="text-size-adjust: 50px; overflow: hidden; text-overflow: ellipsis;">
+						03.30 - 04.30 : Sholat Tahajjud & Zikir Malam</li>
+					<li style="text-size-adjust: 50px; overflow: hidden; text-overflow: ellipsis;">
+						04.30 - 05.00 : Sholat Shubuh dan Khatamul Qur'an</li>
+					<li style="text-size-adjust: 50px; overflow: hidden; text-overflow: ellipsis;">
+						05.00 - 06.00 : Belajar Bahasa atau Kitab Salaf</li>
+					<li style="text-size-adjust: 50px; overflow: hidden; text-overflow: ellipsis;">
+						06.00 - 07.20 : Sarapan dan persiapan Sekolah</li>
+					<li style="text-size-adjust: 50px; overflow: hidden; text-overflow: ellipsis;">
+						07.20 - 14.00 : Belajar Formal</li>
+					<li style="text-size-adjust: 50px; overflow: hidden; text-overflow: ellipsis;">
+						14.00 - 15.00 : Rehat Siang</li>
+					<li style="text-size-adjust: 50px; overflow: hidden; text-overflow: ellipsis;">
+						15.00 - 17.00 : Sholat Ashar, Tahfidz/Kitab salaf</li>
+					<li style="text-size-adjust: 50px; overflow: hidden; text-overflow: ellipsis;">
+						17.00 - 17.30 : Olahraga atau ESKUL lainnya</li>
+					<li style="text-size-adjust: 50px; overflow: hidden; text-overflow: ellipsis;">
+						17.30 - 19.00 : Tadarus, Sholat Magrib, Tahfidz/Tahshin Qur'an dan Kitab Salaf</li>
+					<li style="text-size-adjust: 50px; overflow: hidden; text-overflow: ellipsis;">
+						19.00 - 19.30 : Sholat Isya Berjama'ah</li>
+					<li style="text-size-adjust: 50px; overflow: hidden; text-overflow: ellipsis;">
+						19.30 - 20.00 : Makan Malam</li>
+					<li style="text-size-adjust: 50px; overflow: hidden; text-overflow: ellipsis;">
+						20.00 - 21.30 : Belajar Malam (Kajian Kitab salaf)</li>
+					<li style="text-size-adjust: 50px; overflow: hidden; text-overflow: ellipsis;">
+						21.30 - 03.30 : Istirahat</li>
 				</ol>
 			</div>
 		</div>
@@ -93,10 +117,21 @@ if (isset($_SESSION['username']) && isset($_SESSION['password'])) {
 	<div class="container mt-3">
 		<div class="row">
 			<div class="col bg-white radius p-3">
-				<h2>Profil Pondok Pesantren</h2>
-				<p>Pesantren Daarut Tazkia didirikan pada tahun 2007 sebagai wadah perjuangan untuk mengembangkan dakwah islamiyah disaat sudah banyak generasi islam yang yang sudah mulai jauh dan bangga dari nilai-nilai mulia agama islam</p>
-				<p>Pesantren ini memiliki Keunggulan Program Pendidikan yang terpadu dimana selain pengetahuan Agama yang merupakan dasar pendidikan formal, juga pengetahuan umum yang merupakan sistem dari DepDikNas. Keunggulan program lain di pesantren ini adalah masih dipelajarinya kitab-kitab salaf kuning yang merupakan rujukan ulama salaf dan modern agar santri dapat lebih mudah memahami agama secara konprehensif sebagai kebijakan moral bagi seorang muslim yang dalam kehidupannya harus tetap beroreantasi akhirat.</p>
-				<p>Hal itu kami wujudkan dengan cara memprioritaskan santri untuk sejak dini lebih banyak mempraktekan ajaran Agama sehari-hari seperti sholat berjama'ah, tahajjud, memimpin dzikir, tahlil, doa, dan lain-lain yang sangant dibutuhkan ketika mereka kelak terjun langsung kepada objek dakwah/masyarakat.</p>
+				<h2>Catatan Khusus Lainnya Diluar Biaya PSB :</h2>
+				<ol>
+					<li>Paket Buku Umum, Kitab Kepesantrenan, dan LKS</li>
+					<li>Seragam Umum SMP/SMA (Putih/biru atau Abu-abu/Jilbab), dan juga Perlengkapan lainnya</li>
+					<li>Dalam 1 tahun ajaran, ada biaya rutin lain setiap triwulan yang harus disiapkan oleh wali santri yakni : PAS 1 Bulan Desember, PTS 2 bulan Maret & PAS 2 dibulan Juni</li>
+					<li>jika ada program & kegiatan khusus lainnya seperti :</li>
+				</ol>
+				<ul>
+					<li>Ziarah Ulama/Aulia</li>
+					<li>Kunjungan Ke Museum</li>
+					<li>Kunjuangan Ke PT/Pabrik/UKM</li>
+					<li>Muhibbah antar Pesantren</li>
+					<li>Pelatihan Khusus di Sebuah CV/PT yang biasanya dilaksanakan pasca PTS atau PAS</li>
+					<li>dan lain-lain</li>
+				</ul>
 
 			</div>
 		</div>
