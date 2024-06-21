@@ -32,6 +32,7 @@
     <div class="card2-footer">
         <center>
             <a class="card2-button" href="logout.php">Logout</a>
+            <a href="dataDiri.php" class="card2-button">Print</a>
         </center>
     </div>
 </div>
@@ -81,7 +82,7 @@
         display: inline-block !important;
         text-align: center;
         text-decoration: none;
-        background: var(--bg);
+        background: #ffa117;
         color: #fff;
         border: none;
         padding: 10px 20px;

@@ -15,7 +15,9 @@
             </tr>
 
             <div class="card-info">
-                <h1><?= $info['header1']; ?></h1>
+                <center>
+                    <h1><?= $info['header1']; ?></h1>
+                </center>
                 <h3><?= $info['text']; ?></h3>
                 <p><?= $info['isi']; ?></p>
             </div>
@@ -94,5 +96,12 @@
         border-radius: 12px;
         padding: 20px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        background-color: #0fc70f;
+        border-radius: 10px;
+        padding: 5px 0 0 5px;
+        color: white;
     }
 </style>

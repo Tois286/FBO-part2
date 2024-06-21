@@ -4,10 +4,22 @@
     </div>
     <div class="card4-content">
         This is the content of the card4. You can put any information you want here.
+        <?php
+        include 'koneksi.php';
+        // session_start();
+        $sql = mysqli_query($koneksi, "SELECT * FROM data_siswa WHERE id_siswa = '" . $_SESSION['id'] . "'");
+        while ($text = mysqli_fetch_array($sql)) {
+        ?>
+            <center>
+                <h2><?= $text['judul_file_pdf']; ?></h2>
+            </center>
     </div>
-    <div class="card4-footer">
-        <button class="card4-button">Button</button>
-    </div>
+<?php } ?>
+<div class="card4-footer">
+    <center>
+        <a href="halaman_upload.php" class="card4-button">Upload</a>
+    </center>
+</div>
 </div>
 
 <style>
@@ -52,6 +64,9 @@
     }
 
     .card4-button {
+        display: inline-block !important;
+        text-align: center;
+        text-decoration: none;
         background: var(--bg);
         color: #fff;
         border: none;
@@ -68,5 +83,12 @@
     .navigation ul li.active .card4 {
         opacity: 1;
         visibility: visible;
+    }
+
+    h2 {
+        background-color: #2196f3;
+        padding: 5px;
+        border-radius: 10px;
+        color: white;
     }
 </style>
