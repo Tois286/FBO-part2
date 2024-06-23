@@ -8,7 +8,7 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<div class="navbar-nav">
 						<a class="nav-link active" aria-current="page" href="index.php"><i class="bi bi-house-door"></i> Beranda</a>
-						<a class="nav-link " href="#"><i class="bi bi-file-person"></i> Profil Pimpinan</a>
+						<a class="nav-link " href="pimpinan.php"><i class="bi bi-file-person"></i> Profil Pimpinan</a>
 						<a class="nav-link " href="galeri.php"><i class="bi bi-images"></i> Galeri Pondok</a>
 						<a class="nav-link " href="pengumuman.php"><i class="bi bi-bell"></i>Pengumuman</a>
 						<div class="dropdown"><button class="dropbtn"><i class="bi bi-files"></i>pendidikan</button>

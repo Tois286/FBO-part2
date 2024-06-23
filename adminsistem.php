@@ -40,10 +40,10 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<div class="navbar-nav me-auto mb-2 mb-lg-0">
-						<a class="nav-link active" href="adminsistem.php"><i class="bi bi-card-checklist"></i> Data Siswa</a>
+						<a class="nav-link active" href="adminsistem.php"><i class="bi bi-card-checklist"></i> Data Santri</a>
 						<a class="nav-link active" href="pengumumanPros.php"><i class="bi bi-bell"></i> Buat Pengumuman</a>
-						<a class="nav-link active" href="daftarUserPros.php"><i class="bi bi-person-plus"></i> Form SuperUser</a>
-						<a class="nav-link active" href="dataguru.php"><i class="bi bi-person"></i> Daftar SuperUser</a>
+						<a class="nav-link active" href="daftarUserPros.php"><i class="bi bi-person-plus"></i> Form Guru</a>
+						<a class="nav-link active" href="dataguru.php"><i class="bi bi-person"></i> Daftar Guru</a>
 					</div>
 
 					<form action="cari.php" method="POST" class="d-flex">

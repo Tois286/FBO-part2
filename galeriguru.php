@@ -49,35 +49,19 @@
 
     <div class="wrapper">
         <div class="box">
-            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <img src="img/abi.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
             <p>Keterangan</p>
         </div>
         <div class="box">
-            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <img src="img/ustadz.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
             <p>Keterangan</p>
         </div>
         <div class="box">
-            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <img src="img/7.JPG" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
             <p>Keterangan</p>
         </div>
         <div class="box">
-            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
-        </div>
-        <div class="box">
-            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
-        </div>
-        <div class="box">
-            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
-        </div>
-        <div class="box">
-            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
-        </div>
-        <div class="box">
-            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <img src="img/8.JPG" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
             <p>Keterangan</p>
         </div>
         <div class="box">
