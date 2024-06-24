@@ -63,38 +63,18 @@ if (isset($_SESSION['username']) && isset($_SESSION['password'])) {
 		<div class="row justify-content-center">
 			<!-- Konten Visi -->
 			<div class="col-sm-6 bg-white radius card" style="width: 49%; margin-right: 10px;">
-            <img src="img/calon.jpg" class="d-block w-100 radius mt-2 mb-2" style="height: 500px; width: auto;">
+            <img src="img/gurubesar.jpg" class="d-block w-100 radius mt-2 mb-2" style="height: 500px; width: auto;">
 			</div>
 
 			<!-- Konten Misi -->
 			<div class="col-sm-6 bg-white radius card" style="width: 49%;margin-left: 10px;">
 				<h3 style="padding: top 50px;">Pimpinan Yayasan</h3>
+				<p>KH. Nanang Kosim Lc., lahir di Jakarta pada tanggal 30 September 1973, beliau menempuh pendidikan di Pondok Pesantren As-Shidiqiyah 01 jakarta hingga tamat Sekolah Menengah Atas (SMA) waktu menempuh mendidikan beliau tinggal di Kp. Setu Tangerang Selatan (dekat UNPAM Victor) setelah tamat Sekolah beliau masih haus akan ilmu sehingga melanjutkan Sekolah Tinggi di Cairo, Mesir, namun tidak cukup sampai situ, setelah lulus Sarjana S1 di Cairo beliau masih terus mencari dan mendatangi Kiyai-Kiyai Sepuh untuk memperdalam ilmu dan memperluas akan wawasan.</p>
+				<p>Setelah mendapat restu dari para Guru, Beliau pun membuka Majlis kecil-kecilan berupa majlis Sholawat & dzikir untuk Umum dan mengajarkan ilmu yang beliau dapatkan sambil berdakwah, namun siapa sangka Majlis tersebut makin banyak peminat nya dan ada beberapa warga sekitar ataupun teman-teman beliau yang menitipkan anak nya untuk menuntut ilmu bersama Beliau,</p>
+				<p>Pada tanggal 4 Maret 2007 beliau pun resmi mendirikan pondok Pesantren yang disambut baik oleh warga sekitar di daerah pengasinan Gn. Sindur bogor yang berawal saung kayu hingga sekarang memiliki gedung Sekolah dan bangunan yang indah. </p>
 				
 			</div>
 		</div>
-        <!-- menambah content -->
-	<div class="container mt-3">
-		<div class="row">
-			<div class="col bg-white radius p-3">
-				<h2>Catatan Khusus Lainnya Diluar Biaya PSB :</h2>
-				<ol>
-					<li>Paket Buku Umum, Kitab Kepesantrenan, dan LKS</li>
-					<li>Seragam Umum SMP/SMA (Putih/biru atau Abu-abu/Jilbab), dan juga Perlengkapan lainnya</li>
-					<li>Dalam 1 tahun ajaran, ada biaya rutin lain setiap triwulan yang harus disiapkan oleh wali santri yakni : PAS 1 Bulan Desember, PTS 2 bulan Maret & PAS 2 dibulan Juni</li>
-					<li>jika ada program & kegiatan khusus lainnya seperti :</li>
-				</ol>
-				<ul>
-					<li>Ziarah Ulama/Aulia</li>
-					<li>Kunjungan Ke Museum</li>
-					<li>Kunjuangan Ke PT/Pabrik/UKM</li>
-					<li>Muhibbah antar Pesantren</li>
-					<li>Pelatihan Khusus di Sebuah CV/PT yang biasanya dilaksanakan pasca PTS atau PAS</li>
-					<li>dan lain-lain</li>
-				</ul>
-
-			</div>
-		</div>
-	</div>
 	</div>
 
 

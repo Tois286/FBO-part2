@@ -50,35 +50,35 @@
     <div class="wrapper">
         <div class="box">
             <img src="img/abi.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
+            <p>Pimpinan Yayasan</p>
+        </div>
+        <div class="box">
+            <img src="img/gr.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Dewan Asatidz</p>
+        </div>
+        <div class="box">
+            <img src="img/gru.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Dewan Asatidz 2</p>
         </div>
         <div class="box">
             <img src="img/ustadz.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
+            <p>Kepala Sekolah & Lurah Pondok</p>
+        </div>
+        <div class="box">
+            <img src="img/fotbarasatidz.JPG" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Para Ustadz</p>
         </div>
         <div class="box">
             <img src="img/7.JPG" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
+            <p>Para Guru</p>
         </div>
         <div class="box">
             <img src="img/8.JPG" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
+            <p>Para Guru Wanita</p>
         </div>
         <div class="box">
-            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
-        </div>
-        <div class="box">
-            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
-        </div>
-        <div class="box">
-            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
-        </div>
-        <div class="box">
-            <img src="img/DT.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Keterangan</p>
+            <img src="img/fotbarasatidzah.JPG" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+            <p>Para Ustadzah</p>
         </div>
     </div>
 
