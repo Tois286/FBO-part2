@@ -81,7 +81,7 @@
     }
 
     .card3-button:hover {
-        background: darken(var(--bg), 10%);
+        background: #0fc70f;
     }
 
     .navigation ul li.active .card3 {

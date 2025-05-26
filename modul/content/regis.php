@@ -202,7 +202,7 @@
     }
 
     .card4-button:hover {
-        background: darken(var(--bg), 10%);
+        background: #00008B;
     }
 
     .navigation ul li.active .card4 {

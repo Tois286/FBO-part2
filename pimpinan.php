@@ -68,11 +68,18 @@ if (isset($_SESSION['username']) && isset($_SESSION['password'])) {
 
 			<!-- Konten Misi -->
 			<div class="col-sm-6 bg-white radius card" style="width: 49%;margin-left: 10px;">
-				<h3 style="padding: top 50px;">Pimpinan Yayasan</h3>
-				<p>KH. Nanang Kosim Lc., lahir di Jakarta pada tanggal 30 September 1973, beliau menempuh pendidikan di Pondok Pesantren As-Shidiqiyah 01 jakarta hingga tamat Sekolah Menengah Atas (SMA) waktu menempuh mendidikan beliau tinggal di Kp. Setu Tangerang Selatan (dekat UNPAM Victor) setelah tamat Sekolah beliau masih haus akan ilmu sehingga melanjutkan Sekolah Tinggi di Cairo, Mesir, namun tidak cukup sampai situ, setelah lulus Sarjana S1 di Cairo beliau masih terus mencari dan mendatangi Kiyai-Kiyai Sepuh untuk memperdalam ilmu dan memperluas akan wawasan.</p>
-				<p>Setelah mendapat restu dari para Guru, Beliau pun membuka Majlis kecil-kecilan berupa majlis Sholawat & dzikir untuk Umum dan mengajarkan ilmu yang beliau dapatkan sambil berdakwah, namun siapa sangka Majlis tersebut makin banyak peminat nya dan ada beberapa warga sekitar ataupun teman-teman beliau yang menitipkan anak nya untuk menuntut ilmu bersama Beliau,</p>
-				<p>Pada tanggal 4 Maret 2007 beliau pun resmi mendirikan pondok Pesantren yang disambut baik oleh warga sekitar di daerah pengasinan Gn. Sindur bogor yang berawal saung kayu hingga sekarang memiliki gedung Sekolah dan bangunan yang indah. </p>
-				
+				<div class="card p-2">
+<div class="card-title">
+	<h3 class="text-center">Pimpinan Yayasan</h3>
+</div>
+<div class="card-body">
+
+	<p>KH. Nanang Kosim Lc., lahir di Jakarta pada tanggal 30 September 1973, beliau menempuh pendidikan di Pondok Pesantren As-Shidiqiyah 01 jakarta hingga tamat Sekolah Menengah Atas (SMA) waktu menempuh mendidikan beliau tinggal di Kp. Setu Tangerang Selatan (dekat UNPAM Victor) setelah tamat Sekolah beliau masih haus akan ilmu sehingga melanjutkan Sekolah Tinggi di Cairo, Mesir, namun tidak cukup sampai situ, setelah lulus Sarjana S1 di Cairo beliau masih terus mencari dan mendatangi Kiyai-Kiyai Sepuh untuk memperdalam ilmu dan memperluas akan wawasan.</p>
+	<p>Setelah mendapat restu dari para Guru, Beliau pun membuka Majlis kecil-kecilan berupa majlis Sholawat & dzikir untuk Umum dan mengajarkan ilmu yang beliau dapatkan sambil berdakwah, namun siapa sangka Majlis tersebut makin banyak peminat nya dan ada beberapa warga sekitar ataupun teman-teman beliau yang menitipkan anak nya untuk menuntut ilmu bersama Beliau,</p>
+	<p>Pada tanggal 4 Maret 2007 beliau pun resmi mendirikan pondok Pesantren yang disambut baik oleh warga sekitar di daerah pengasinan Gn. Sindur bogor yang berawal saung kayu hingga sekarang memiliki gedung Sekolah dan bangunan yang indah. </p>
+</div>
+					
+				</div>
 			</div>
 		</div>
 	</div>

@@ -49,51 +49,51 @@
     <div class="wrapper">
         <div class="box">
             <img src="img/18.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Gerbang Utama</p>
+            <p class="text-center">Gerbang Utama</p>
         </div>
         <div class="box">
             <img src="img/17.jpg" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Masa Ta'aruf Santri</p>
+            <p class="text-center">Masa Ta'aruf Santri</p>
         </div>
         <div class="box">
             <img src="img/3.JPG" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Paskibra Santriwati</p>
+            <p class="text-center">Paskibra Santriwati</p>
         </div>
         <div class="box">
             <img src="img/4.JPG" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Paskibra Santriwan</p>
+            <p class="text-center">Paskibra Santriwan</p>
         </div>
         <div class="box">
             <img src="img/5.JPG" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Santriwati Daarut Tazkia</p>
+            <p class="text-center">Santriwati Daarut Tazkia</p>
         </div>
         <div class="box">
             <img src="img/6.JPG" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Ostani Sebagai Panitia Acara</p>
+            <p class="text-center">Ostani Sebagai Panitia Acara</p>
         </div>
         <div class="box">
             <img src="img/7.JPG" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Dewan Asatidz</p>
+            <p class="text-center">Dewan Asatidz</p>
         </div>
         <div class="box">
             <img src="img/8.JPG" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Dewan Asatidzah</p>
+            <p class="text-center">Dewan Asatidzah</p>
         </div>
         <div class="box">
             <img src="img/9.JPG" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Pelepasan Para Santri</p>
+            <p class="text-center">Pelepasan Para Santri</p>
         </div>
         <div class="box">
             <img src="img/12.JPG" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Foto Bersama Para Guru dengan Pimpinan Pondok</p>
+            <p class="text-center">Foto Bersama Para Guru dengan Pimpinan Pondok</p>
         </div>
         <div class="box">
             <img src="img/13.JPG" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Ostani Santriwati</p>
+            <p class="text-center">Ostani Santriwati</p>
         </div>
         <div class="box">
             <img src="img/15.JPG" alt="" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
-            <p>Ostani Santriwan</p>
+            <p class="text-center">Ostani Santriwan</p>
         </div>
     </div>
 

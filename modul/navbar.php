@@ -12,7 +12,7 @@
 						<a class="nav-link " href="galeri.php"><i class="bi bi-images"></i> Galeri Pondok</a>
 						<a class="nav-link " href="pengumuman.php"><i class="bi bi-bell"></i>Pengumuman</a>
 						<div class="dropdown"><button class="dropbtn"><i class="bi bi-files"></i>pendidikan</button>
-							<div class="dropdown-content">
+							<div class="dropdown-content" style="background-color: #ffffff;">
 								<a href="brosur.php">Brosur</a>
 								<a href="biaya.php">Biaya dan Kegiatan</a>
 								<a href="sosmed.php">Sosial Media</a>

@@ -101,36 +101,41 @@ if (isset($_SESSION['username']) && isset($_SESSION['password'])) {
 	</div>
 	<!-- menambah content -->
 	<div class="container mt-3">
-		<div class="row">
-			<div class="col bg-white radius p-3">
-				<h2>Profil Pondok Pesantren</h2>
-				<p>Pesantren Daarut Tazkia didirikan pada tahun 2007 sebagai wadah perjuangan untuk mengembangkan dakwah islamiyah disaat sudah banyak generasi islam yang yang sudah mulai jauh dan bangga dari nilai-nilai mulia agama islam</p>
-				<p>Pesantren ini memiliki Keunggulan Program Pendidikan yang terpadu dimana selain pengetahuan Agama yang merupakan dasar pendidikan formal, juga pengetahuan umum yang merupakan sistem dari DepDikNas. Keunggulan program lain di pesantren ini adalah masih dipelajarinya kitab-kitab salaf kuning yang merupakan rujukan ulama salaf dan modern agar santri dapat lebih mudah memahami agama secara konprehensif sebagai kebijakan moral bagi seorang muslim yang dalam kehidupannya harus tetap beroreantasi akhirat.</p>
-				<p>Hal itu kami wujudkan dengan cara memprioritaskan santri untuk sejak dini lebih banyak mempraktekan ajaran Agama sehari-hari seperti sholat berjama'ah, tahajjud, memimpin dzikir, tahlil, doa, dan lain-lain yang sangant dibutuhkan ketika mereka kelak terjun langsung kepada objek dakwah/masyarakat.</p>
-
-			</div>
-		</div>
-	</div>
+  <div class="row">
+    <div class="col bg-white radius p-4">
+      <h2 class="mb-3">Profil Pondok Pesantren</h2>
+      <p>Pesantren Daarut Tazkia didirikan pada tahun 2007 sebagai wadah perjuangan untuk mengembangkan dakwah islamiyah disaat sudah banyak generasi islam yang yang sudah mulai jauh dan bangga dari nilai-nilai mulia agama islam</p>
+      <p>Pesantren ini memiliki Keunggulan Program Pendidikan yang terpadu dimana selain pengetahuan Agama yang merupakan dasar pendidikan formal, juga pengetahuan umum yang merupakan sistem dari DepDikNas. Keunggulan program lain di pesantren ini adalah masih dipelajarinya kitab-kitab salaf kuning yang merupakan rujukan ulama salaf dan modern agar santri dapat lebih mudah memahami agama secara konprehensif sebagai kebijakan moral bagi seorang muslim yang dalam kehidupannya harus tetap beroreantasi akhirat.</p>
+      <p>Hal itu kami wujudkan dengan cara memprioritaskan santri untuk sejak dini lebih banyak mempraktekan ajaran Agama sehari-hari seperti sholat berjama'ah, tahajjud, memimpin dzikir, tahlil, doa, dan lain-lain yang sangant dibutuhkan ketika mereka kelak terjun langsung kepada objek dakwah/masyarakat.</p>
+    </div>
+  </div>
+</div>
 
 	<!-- Konten 3-->
 	<div class="container mt-3">
 		<div class="row justify-content-center">
 			<!-- Konten Visi -->
-			<div class="col-sm-6 bg-white radius card" style="width: 49%; margin-right: 10px;">
-				<h5 class="text-center">VISI</h5>
-				<ol>
-					<li>Mendirikan dan menyediakan sarana pendidikan Islam yang baik, nyaman, representatif, dan berkualitas.</li>
-					<li>Mewujudkan pendidikan yang Islami, terintegrasi dengan teknologi sebagai sarana dakwah Islamiyah.</li>
-				</ol>
-			</div>
+			<div class="card" style="width: 49%; margin-right: 10px;">
+  <div class="card-body">
+    <h5 class="card-title text-center">VISI</h5>
+    <ol class="list-group list-group-flush">
+      <li class="list-group-item">Mendirikan dan menyediakan sarana pendidikan Islam yang baik, nyaman, representatif, dan berkualitas.</li>
+      <li class="list-group-item">Mewujudkan pendidikan yang Islami, terintegrasi dengan teknologi sebagai sarana dakwah Islamiyah.</li>
+    </ol>
+  </div>
+</div>
 
 			<!-- Konten Misi -->
 			<div class="col-sm-6 bg-white radius card" style="width: 49%;margin-left: 10px;">
-				<h5 class="text-center">MISI</h5>
-				<ol>
-					<li>Mendidik generasi yang mampu membumikan nilai-nilai ajaran islam, berintegritas, berdiri diatas dan diterima oleh semua golongan.</li>
-					<li>Mendidik santri yang mandiri, trampil, berwawasan maju, profesional dan mampu memberikan banyak kontribusi positif untuk kebaikan umat.</li>
-				</ol>
+  <div class="card">
+    <div class="card-body bg-white radius">
+      <h5 class="card-title text-center">MISI</h5>
+      <ol class="list-group list-group-flush">
+        <li class="list-group-item">Mendidik generasi yang mampu membumikan nilai-nilai ajaran islam, berintegritas, berdiri diatas dan diterima oleh semua golongan.</li>
+        <li class="list-group-item">Mendidik santri yang mandiri, trampil, berwawasan maju, profesional dan mampu memberikan banyak kontribusi positif untuk kebaikan umat.</li>
+      </ol>
+    </div>
+</div>
 			</div>
 		</div>
 	</div>

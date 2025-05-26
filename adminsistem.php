@@ -44,6 +44,7 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 						<a class="nav-link active" href="pengumumanPros.php"><i class="bi bi-bell"></i> Buat Pengumuman</a>
 						<a class="nav-link active" href="daftarUserPros.php"><i class="bi bi-person-plus"></i> Form Guru</a>
 						<a class="nav-link active" href="dataguru.php"><i class="bi bi-person"></i> Daftar Guru</a>
+						<a class="nav-link active" href="open.php"><i class="bi bi-person"></i> Pendaftaran</a>
 					</div>
 
 					<form action="cari.php" method="POST" class="d-flex">
