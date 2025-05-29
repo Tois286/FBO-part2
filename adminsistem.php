@@ -72,7 +72,6 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 					<table class="table text-center mt-2">
 						<thead class="table-primary radius">
 							<tr>
-								<th scope="col">No</th>
 								<th scope="col">No. Pendaftaran</th>
 								<th scope="col">Username</th>
 								<th scope="col">Kode Santri</th>
@@ -81,7 +80,6 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 								<th scope="col">Tanggal Pendaftaran</th>
 								<th scope="col">Jenjang</th>
 								<th scope="col">Email</th>
-								<th scope="col">Status Santri</th>
 								<th scope="col">Asal Sekolah</th>
 								<th scope="col">No. Telepon</th>
 								<th scope="col">Info Pembayaran</th>
@@ -96,7 +94,6 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 							while ($data = mysqli_fetch_array($sql)) {
 							?>
 								<tr>
-									<td><?= $no++ ?></td>
 									<td><?= $data['id_siswa']; ?></td>
 									<td><?= $data['username_siswa']; ?></td>
 									<td><?= $data['kode']; ?></td>
@@ -105,13 +102,13 @@ if (!isset($_SESSION['username']) && !isset($_SESSION['password'])) {
 									<td><?= $data['tanggal_daftar']; ?></td>
 									<td><?= $data['jenjang']; ?></td>
 									<td><?= $data['email_siswa']; ?></td>
-									<td><?= $data['status']; ?></td>
-									<td><?= $data['asal_skolah']; ?></td>
+									<td><?= $data['asal_sekolah']; ?></td>
 									<td><?= $data['no_telphon']; ?></td>
 									<td><?= $data['judul_file_pdf']; ?></td>
-									<td class="sticky-right action-cell">
+									<td class="sticky-right action-cell" style="display: flex;">
 										<a href="edit.php?id=<?= $data['id_siswa']; ?>" class="btn btn-outline-primary btn-xs"><i class="bi bi-pencil-square"></i></a>
 										<a href="hapus.php?id=<?= $data['id_siswa']; ?>" class="btn btn-outline-danger btn-xs"><i class="bi bi-trash3"></i></a>
+										<a href="dataDiri.php?id=<?= $data['id_siswa'] ?>" class="btn btn-outline-warning bttn-xs"><i class="bi bi-printer"></i></a>
 									</td>
 								</tr>
 							<?php } ?>
