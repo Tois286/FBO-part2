@@ -42,8 +42,8 @@
 			vertical-align: top;
 		}
 
-		.numbered td:first-child {
-			width: 30%;
+		.numbered td:first-child() {
+			width: 10%;
 		}
 
 		.numbered td:nth-child(2) {
@@ -51,7 +51,19 @@
 		}
 
 		.numbered td:nth-child(3) {
-			width: 80%;
+			width: 30%;
+		}
+
+		.numbered2 td:first-child() {
+			width: 10%;
+		}
+
+		.numbered2 td:nth-child(2) {
+			width: 2%;
+		}
+
+		.numbered2 td:nth-child(3) {
+			width: 59%;
 		}
 
 
@@ -66,6 +78,7 @@
 		}
 
 		.photo-box {
+			margin-top: 20px;
 			float: left;
 			width: 100px;
 			height: 120px;
@@ -99,7 +112,7 @@
 
 	<table class="numbered">
 		<tr class="section-title">
-			<td colspan="4">A. IDENTITAS PESERTA DIDIK</td>
+			<td colspan="6">A. IDENTITAS PESERTA DIDIK</td>
 		</tr>
 		<tr>
 			<td>Nama Lengkap</td>
@@ -181,9 +194,9 @@
 		</tr>
 	</table>
 
-	<table class="numbered" style="margin-top:10px;">
+	<table class="numbered2" style="margin-top:10px;">
 		<tr class="section-title">
-			<td colspan="4">B. DATA AYAH KANDUNG</td>
+			<td colspan="6">B. DATA AYAH KANDUNG</td>
 		</tr>
 		<tr>
 			<td>Nama Ayah</td>
@@ -207,9 +220,9 @@
 		</tr>
 	</table>
 
-	<table class="numbered" style="margin-top:10px;">
+	<table class="numbered2" style="margin-top:10px;">
 		<tr class="section-title">
-			<td colspan="4">B. DATA IBU KANDUNG</td>
+			<td colspan="6">B. DATA IBU KANDUNG</td>
 		</tr>
 		<tr>
 			<td>Nama Ibu</td>
@@ -233,7 +246,7 @@
 		</tr>
 	</table>
 
-	<table class="numbered" style="margin-top:10px;">
+	<table class="numbered2" style="margin-top:10px;">
 		<tr class="section-title">
 			<td colspan="4">B. DATA WALI</td>
 		</tr>
@@ -254,7 +267,7 @@
 		</tr>
 	</table>
 
-	<table class="numbered" style="margin-top:10px;">
+	<table class="numbered2" style="margin-top:10px;">
 		<tr class="section-title">
 			<td colspan="4">B. DATA PRIODIK</td>
 		</tr>
@@ -280,7 +293,7 @@
 		</tr>
 	</table>
 
-	<table class="numbered" style="margin-top:10px;">
+	<table class="numbered2" style="margin-top:10px;">
 		<tr class="section-title">
 			<td colspan="4">B. BEASISWA</td>
 		</tr>
